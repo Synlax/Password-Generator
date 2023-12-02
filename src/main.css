@@ -1,0 +1,70 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #f8f9fa;
+    color: #495057;
+  }
+
+  h1 {
+    color: #007bff;
+  }
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+
+  .form-check {
+    margin-bottom: 15px;
+  }
+
+  button {
+    margin-top: 20px;
+  }
+
+  #generated-password-container {
+    margin-top: 20px;
+    border-top: 1px solid #dee2e6;
+    padding-top: 10px;
+  }
+
+  #generated-password-label {
+    font-weight: bold;
+  }
+
+  #generated-password {
+    padding: 10px;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  #copy-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #868e96;
+  }
